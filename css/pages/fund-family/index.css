@@ -1,0 +1,208 @@
+/**
+ * Based on Galaxy's theme-responsive.css media queries. Similar to Bootstrap, except:
+ *   - We're using Sass
+ *   - Their large is our x-large
+ *   - We add a different large
+ *
+ * See: http://getbootstrap.com/css/#grid-media-queries
+ */
+/**
+ X-large. Desktops.
+ */
+/**
+ Large. Laptops.
+ */
+/**
+ Medium. Tablets, small laptops.
+ */
+/**
+ Small. Tablets.
+ */
+/**
+ X-small. Phones.
+ */
+/**
+ Extra x-small. Real phones.
+ */
+/**
+ Extra extra x-small. iPhone 4s.
+ */
+/**
+ * Devices
+ */
+/**
+ * Mixin library
+ */
+/**
+ * Inheritable top shadow for bright green bg
+ */
+.am-box-shadow-top-bright-green-bg {
+  box-shadow: inset 0 10px 8px -8px #395318; }
+
+.am-box-shadow-bottom-bright-green-bg {
+  box-shadow: inset 0 -10px 8px -8px #395318; }
+
+.am-diffuse-top-shadow-green-bg {
+  box-shadow: inset 0px 20px 40px -15px #395318; }
+
+.am-diffuse-top-shadow-clear-bg {
+  box-shadow: inset 0px 45px 40px -40px #4e4e4e; }
+
+/**
+ * Inheritable shadows for white bg
+ */
+.am-box-shadow-top-white-bg {
+  box-shadow: inset 0 10px 8px -8px #777777; }
+
+.am-box-shadow-bottom-white-bg {
+  box-shadow: inset 0 -10px 8px -8px #777777; }
+
+/**
+ * Based on Galaxy's theme-responsive.css media queries. Similar to Bootstrap, except:
+ *   - We're using Sass
+ *   - Their large is our x-large
+ *   - We add a different large
+ *
+ * See: http://getbootstrap.com/css/#grid-media-queries
+ */
+/**
+ X-large. Desktops.
+ */
+/**
+ Large. Laptops.
+ */
+/**
+ Medium. Tablets, small laptops.
+ */
+/**
+ Small. Tablets.
+ */
+/**
+ X-small. Phones.
+ */
+/**
+ Extra x-small. Real phones.
+ */
+/**
+ Extra extra x-small. iPhone 4s.
+ */
+/**
+ * Devices
+ */
+/**
+ * Mixin library
+ */
+/**
+ * Inheritable top shadow for bright green bg
+ */
+.am-box-shadow-top-bright-green-bg {
+  box-shadow: inset 0 10px 8px -8px #395318; }
+
+.am-box-shadow-bottom-bright-green-bg {
+  box-shadow: inset 0 -10px 8px -8px #395318; }
+
+.am-diffuse-top-shadow-green-bg {
+  box-shadow: inset 0px 20px 40px -15px #395318; }
+
+.am-diffuse-top-shadow-clear-bg {
+  box-shadow: inset 0px 45px 40px -40px #4e4e4e; }
+
+/**
+ * Inheritable shadows for white bg
+ */
+.am-box-shadow-top-white-bg {
+  box-shadow: inset 0 10px 8px -8px #777777; }
+
+.am-box-shadow-bottom-white-bg {
+  box-shadow: inset 0 -10px 8px -8px #777777; }
+
+.am-show-on-fund-load {
+  display: none; }
+
+table.am-fund-info * {
+  text-align: center; }
+table.am-fund-info th {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.05em;
+  background-color: #0B3D92;
+  line-height: 1.25em; }
+  table.am-fund-info th a {
+    display: block;
+    color: #fff; }
+    table.am-fund-info th a:hover {
+      color: #59ab02; }
+table.am-fund-info th.am-link-like:hover .am-bubble-cell, table.am-fund-info th.am-link-like:hover a {
+  color: #fff;
+  background-color: #59ab02; }
+table.am-fund-info tr.am-bubble-row th {
+  background-color: transparent; }
+  table.am-fund-info tr.am-bubble-row th .am-bubble-cell {
+    background-color: #0B3D92; }
+table.am-fund-info td img {
+  max-height: 2em; }
+table.am-fund-info td img.am-no-max-height, table.am-fund-info td img.am-download-icon {
+  max-height: none; }
+table.am-fund-info .am-smaller {
+  font-size: 0.75em; }
+table.am-fund-info th.am-blank {
+  background-color: #fff; }
+table.am-fund-info tr:not(.am-bubble-row) td.am-blank, table.am-fund-info tr.am-bubble-row .am-blank .am-bubble-cell {
+  background-color: #E4E4E4; }
+@media (max-width: 991px) {
+  table.am-fund-info th {
+    font-size: 1em; }
+  table.am-fund-info th.am-2-line, table.am-fund-info th.am-smaller {
+    font-size: 0.95em; }
+  table.am-fund-info td .am-bubble-cell {
+    font-size: 1em; }
+    table.am-fund-info td .am-bubble-cell.am-huge, table.am-fund-info td .am-bubble-cell .am-huge {
+      font-size: 1.35em;
+      line-height: initial; }
+      table.am-fund-info td .am-bubble-cell.am-huge .am-loading, table.am-fund-info td .am-bubble-cell .am-huge .am-loading {
+        font-size: 0.75em; } }
+@media (min-width: 992px) {
+  table.am-fund-info th {
+    font-size: 1.15em; }
+  table.am-fund-info th.am-2-line, table.am-fund-info th.am-smaller {
+    font-size: 1.05em; }
+  table.am-fund-info td .am-bubble-cell {
+    font-size: 1.15em; }
+    table.am-fund-info td .am-bubble-cell.am-huge, table.am-fund-info td .am-bubble-cell .am-huge {
+      font-size: 1.5em;
+      line-height: initial; }
+      table.am-fund-info td .am-bubble-cell.am-huge .am-loading, table.am-fund-info td .am-bubble-cell .am-huge .am-loading {
+        font-size: 0.75em; } }
+
+section.am-desktop .am-funds-overview table.am-fund-info {
+  margin: 0 0 50px 0; }
+  section.am-desktop .am-funds-overview table.am-fund-info tbody tr:first-child th:first-child {
+    border-radius: 7px 0 0 0; }
+  section.am-desktop .am-funds-overview table.am-fund-info tbody tr:last-child th:first-child {
+    border-radius: 0 0 0 7px; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    section.am-desktop .am-funds-overview table.am-fund-info tr {
+      font-size: .75em; } }
+  @media (min-width: 1200px) {
+    section.am-desktop .am-funds-overview table.am-fund-info tr {
+      font-size: .85em; } }
+
+section.am-mobile.am-fund-overview table + table, .fund-page .am-fund-overview table + table {
+  margin-top: 0.85em; }
+section.am-mobile.am-fund-overview table th.am-smaller, .fund-page .am-fund-overview table th.am-smaller {
+  height: 4em; }
+
+td.am-link:hover > .am-bubble-cell {
+  background-color: #59ab02; }
+
+section.am-mobile.am-fund-overview .am-section-content {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+@media (min-width: 1px) and (max-width: 320px) {
+  .am-bubble-cell th {
+    font-size: .8em; } }
+table.am-table-fund-profile {
+  min-width: 900px; }
+
+/*# sourceMappingURL=index.css.map */
