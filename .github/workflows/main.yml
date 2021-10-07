@@ -13,5 +13,5 @@ jobs:
         with:
           server: ftp.theemailauthority.com
           username: avemaria@theemailauthority.com
-          password: ${{ secrets.ftp_password }}
+          password: GregGetsPinegrow!
           server-dir: public_html/trusticall/
