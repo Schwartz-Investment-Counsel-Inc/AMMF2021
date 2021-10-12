@@ -11,13 +11,11 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp.theemailauthority.com
-        username: avemaria@theemailauthority.com
-        password: GregGetsPinegrow!
-        server-dir: public_html/trusticall/
+        server: ftp.samkirkland.com
+        username: myFtpUserName
+        password: ${{ secrets.password }}
         exclude:
           - **/.git*
           - **/.git*/**
           - **/node_modules/**
-          - **/_pg*/**
-          - **/environments/**
+          - fileToExclude.txt
