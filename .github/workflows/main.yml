@@ -15,3 +15,8 @@ jobs:
           username: avemaria@theemailauthority.com
           password: GregGetsPinegrow!
           server-dir: public_html/trusticall/
+        exclude:
+          - **/.git*
+          - **/_pg*/**
+          - **/environments/**
+          - fileToExclude.txt
