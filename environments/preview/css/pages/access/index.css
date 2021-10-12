@@ -1,0 +1,21 @@
+#main {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto; }
+
+/*
+  TODO: once get rid of static pages:
+  1. Move these styles to #main
+  2. Get rid of new-version class from template files
+*/
+.new-version #main {
+  width: 100%; }
+
+#paweb-frame {
+  height: 1280px;
+  width: 1280px;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto; }
+
+/*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */
