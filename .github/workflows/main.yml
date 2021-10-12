@@ -5,13 +5,17 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ftp.theemailauthority.com
-          username: avemaria@theemailauthority.com
-          password: GregGetsPinegrow!
-          server-dir: public_html/trusticall/
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ftp.samkirkland.com
+        username: myFtpUserName
+        password: ${{ secrets.password }}
+        exclude:
+          - **/.git*
+          - **/.git*/**
+          - **/node_modules/**
+          - fileToExclude.txt
