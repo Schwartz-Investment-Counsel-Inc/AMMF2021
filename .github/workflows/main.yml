@@ -16,3 +16,4 @@ jobs:
           password: GregGetsPinegrow!
           server-dir: public_html/trusticall/
           log-level: verbose
+          state-name: .clean-slate.json
