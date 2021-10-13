@@ -1,0 +1,15 @@
+.am-highlights {
+  background-color: #8BC63E;
+  text-align: center;
+  margin: 0 0 50px 0;
+  padding: 2em; }
+  .am-highlights > a {
+    display: inline-block;
+    margin-right: 1em; }
+    .am-highlights > a:last-child {
+      margin-right: 0; }
+
+.modal .modal-body {
+  padding: 1em; }
+
+/*# sourceMappingURL=in-the-news.css.map */
