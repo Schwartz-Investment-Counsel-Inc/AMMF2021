@@ -14,8 +14,7 @@ jobs:
           server: ftp.avemariafunds.com
           username: admin@avemariafunds.com
           password: Ws0.xbI8hd
-          protocol: ftp
-          port: 21
+          protocol: ftps
           server-dir: public_html/
           log-level: verbose
           state-name: .clean-slate.json
