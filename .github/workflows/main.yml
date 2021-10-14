@@ -11,9 +11,9 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.theemailauthority.com
-          username: avemaria@theemailauthority.com
-          password: GregGetsPinegrow!
+          server: ftp.avemariafunds.com
+          username: admin@avemariafunds.com
+          password: Ws0.xbI8hd
           server-dir: public_html/trusticall/
           log-level: verbose
           state-name: .clean-slate.json
