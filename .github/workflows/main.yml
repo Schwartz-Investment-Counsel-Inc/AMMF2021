@@ -17,4 +17,3 @@ jobs:
           server-dir: /
           log-level: verbose
           state-name: .clean-slate.json
-          dry-run: true
