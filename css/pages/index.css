@@ -1,0 +1,230 @@
+/**
+ * Based on Galaxy's theme-responsive.css media queries. Similar to Bootstrap, except:
+ *   - We're using Sass
+ *   - Their large is our x-large
+ *   - We add a different large
+ *
+ * See: http://getbootstrap.com/css/#grid-media-queries
+ */
+/**
+ X-large. Desktops.
+ */
+/**
+ Large. Laptops.
+ */
+/**
+ Medium. Tablets, small laptops.
+ */
+/**
+ Small. Tablets.
+ */
+/**
+ X-small. Phones.
+ */
+/**
+ Extra x-small. Real phones.
+ */
+/**
+ Extra extra x-small. iPhone 4s.
+ */
+/**
+ * Devices
+ */
+/**
+ * Mixin library
+ */
+/**
+ * Inheritable top shadow for bright green bg
+ */
+.am-box-shadow-top-bright-green-bg, section.am-quote-bowie-kuhn .am-quote {
+  box-shadow: inset 0 10px 8px -8px #395318; }
+
+.am-box-shadow-bottom-bright-green-bg {
+  box-shadow: inset 0 -10px 8px -8px #395318; }
+
+.am-diffuse-top-shadow-green-bg {
+  box-shadow: inset 0px 20px 40px -15px #395318; }
+
+.am-diffuse-top-shadow-clear-bg {
+  box-shadow: inset 0px 45px 40px -40px #4e4e4e; }
+
+/**
+ * Inheritable shadows for white bg
+ */
+.am-box-shadow-top-white-bg, section.am-clouds {
+  box-shadow: inset 0 10px 8px -8px #777777; }
+
+.am-box-shadow-bottom-white-bg {
+  box-shadow: inset 0 -10px 8px -8px #777777; }
+
+section.am-quote-bowie-kuhn .am-quote {
+  color: #0B3D92;
+  background-color: #8BC63E; }
+  section.am-quote-bowie-kuhn .am-quote .fa:first-child, section.am-quote-bowie-kuhn .am-quote .fa:last-child {
+    text-shadow: 1px 1px 0.25em #1e2b0d; }
+  @media (min-width: 1px) and (max-width: 567px) {
+    section.am-quote-bowie-kuhn .am-quote {
+      font-size: 1.5em; } }
+  @media (min-width: 568px) and (max-width: 666px) {
+    section.am-quote-bowie-kuhn .am-quote {
+      font-size: 1.75em; } }
+  @media (min-width: 667px) and (max-width: 767px) {
+    section.am-quote-bowie-kuhn .am-quote {
+      font-size: 1.9em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    section.am-quote-bowie-kuhn .am-quote {
+      font-size: 2em; } }
+  @media (min-width: 992px) {
+    section.am-quote-bowie-kuhn .am-quote {
+      display: none; } }
+section.am-quote-bowie-kuhn .am-quote-by {
+  background-color: #0B3D92;
+  color: #fff; }
+  section.am-quote-bowie-kuhn .am-quote-by .am-row:first-child {
+    font-size: 1.75em; }
+  section.am-quote-bowie-kuhn .am-quote-by .am-row:last-child {
+    font-size: 1.15em; }
+  @media (min-width: 992px) {
+    section.am-quote-bowie-kuhn .am-quote-by {
+      display: none; } }
+
+@media (max-width: 767px) {
+  section.am-metrics .am-ribbons .am-ribbon {
+    box-shadow: inset 0 10px 8px -8px #777777; } }
+@media (min-width: 768px) {
+  section.am-metrics {
+    box-shadow: inset 0 10px 8px -8px #777777; } }
+section.am-clouds {
+  height: 689px;
+  background-image: url("../../img/common/clouds.short.jpg");
+  text-align: center; }
+  section.am-clouds .am-content h2, section.am-clouds .am-content p {
+    text-transform: uppercase;
+    line-height: 1em;
+    font-family: TrendSlabOne;
+    font-weight: normal;
+    font-style: normal; }
+    section.am-clouds .am-content h2, section.am-clouds .am-content h2 a, section.am-clouds .am-content p, section.am-clouds .am-content p a {
+      color: #0B3D92; }
+  section.am-clouds .am-content h2 {
+    margin-bottom: 0.25em; }
+  section.am-clouds .am-content p {
+    letter-spacing: 0.05em; }
+    section.am-clouds .am-content p img {
+      max-width: 5em; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    section.am-clouds .am-content {
+      padding: 9% 1%; }
+      section.am-clouds .am-content h2 {
+        font-size: 1.75em; } }
+  @media (min-width: 568px) and (max-width: 666px) {
+    section.am-clouds .am-content {
+      padding: 10% 1%; }
+      section.am-clouds .am-content h2 {
+        font-size: 2em; } }
+  @media (min-width: 667px) and (max-width: 767px) {
+    section.am-clouds .am-content {
+      padding: 11% 1%; }
+      section.am-clouds .am-content h2 {
+        font-size: 2.25em; }
+      section.am-clouds .am-content p {
+        font-size: 1.25em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    section.am-clouds .am-content {
+      padding: 12% 1%; }
+      section.am-clouds .am-content h2 {
+        font-size: 2.5em; }
+      section.am-clouds .am-content p {
+        font-size: 1.75em; } }
+  @media (min-width: 992px) {
+    section.am-clouds .am-content {
+      padding: 12% 1%; }
+      section.am-clouds .am-content h2 {
+        font-size: 3em; }
+      section.am-clouds .am-content p {
+        font-size: 2em; } }
+
+@media (min-width: 1px) and (max-width: 991px) {
+  .am-slides-wrapper .slidesjs-pagination {
+    height: 10px;
+    width: 96px;
+    padding: 0;
+    position: relative;
+    z-index: 1000;
+    list-style: none;
+    bottom: 10px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto; }
+  .am-slides-wrapper .slidesjs-pagination li {
+    float: left;
+    margin: 0 2px; }
+  .am-slides-wrapper .slidesjs-pagination li a {
+    display: block;
+    width: 10px;
+    height: 0;
+    padding-top: 10px;
+    background-image: url(../../img/pages/index/banner-dots.svg);
+    background-position: 0 0;
+    background-size: 10px 30px;
+    background-repeat: no-repeat;
+    float: left;
+    overflow: hidden;
+    opacity: .5; }
+    .am-slides-wrapper .slidesjs-pagination li a.active {
+      opacity: 1; }
+  .am-slides-wrapper .slidesjs-pagination li a.active,
+  .am-slides-wrapper .slidesjs-pagination li a:hover.active {
+    background-position: 0 -10px; }
+  .am-slides-wrapper .slidesjs-pagination li a:hover {
+    background-position: 0 -10px; } }
+@media (min-width: 992px) {
+  .am-slides-wrapper .slidesjs-pagination {
+    height: 20px;
+    width: 136px;
+    padding: 0;
+    position: relative;
+    z-index: 1000;
+    list-style: none;
+    bottom: 20px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto; }
+  .am-slides-wrapper .slidesjs-pagination li {
+    float: left;
+    margin: 0 2px; }
+  .am-slides-wrapper .slidesjs-pagination li a {
+    display: block;
+    width: 20px;
+    height: 0;
+    padding-top: 20px;
+    background-image: url(../../img/pages/index/banner-dots.svg);
+    background-position: 0 0;
+    background-size: 20px 60px;
+    background-repeat: no-repeat;
+    float: left;
+    overflow: hidden;
+    opacity: .5; }
+    .am-slides-wrapper .slidesjs-pagination li a.active {
+      opacity: 1; }
+  .am-slides-wrapper .slidesjs-pagination li a.active,
+  .am-slides-wrapper .slidesjs-pagination li a:hover.active {
+    background-position: 0 -20px; }
+  .am-slides-wrapper .slidesjs-pagination li a:hover {
+    background-position: 0 -20px; } }
+.am-slides-wrapper .am-slides {
+  display: none;
+  width: 100%; }
+.am-slides-wrapper .am-slides .am-slide {
+  height: 515px !important;
+  max-height: 100%; }
+.am-slides-wrapper a:link,
+.am-slides-wrapper a:visited {
+  color: #0B3D92; }
+.am-slides-wrapper a:hover,
+.am-slides-wrapper a:active {
+  color: #59ab02; }
+.am-slides-wrapper .navbar {
+  overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */
