@@ -13,7 +13,7 @@ jobs:
         with:
           server: ftp.avemariafunds.com
           username: admin@avemariafunds.com
-          password: Ws0.xbI8hd
+          password: "Ws0.xbI8hd"
           protocol: ftps
           port: 21
           server-dir: public_html/
