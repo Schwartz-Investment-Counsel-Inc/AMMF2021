@@ -12,9 +12,9 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ftp.avemariafunds.com
-          username: githugftp@avemariafunds.com
+          username: githubftp@avemariafunds.com
           password: MDI5ODEwNjc5NTgyMDk
-          server-dir: public_html/
+          server-dir: /
           log-level: verbose
           state-name: .clean-slate.json
           dry-run: true
