@@ -1,0 +1,1094 @@
+/* Remove this to not have vertical scroll bar always show up */
+html { overflow-y: scroll; }
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  /*font-size: 11.5px;*/
+  font-size: 12px;
+  font-family: Arial, Helvetica, Lucida, sans-serif;
+
+  background-color: #3460ac;
+  background-image:url('../images/bg-gradient.gif');
+  background-repeat:repeat-x;
+  background-position:top left;
+
+  /* old MSIE-hack to center content */
+  text-align: center;
+
+  line-height: 1.55em;
+  height: 100%;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a img {
+  border: 0;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#content {
+
+  margin: 0;
+  padding: 0;
+
+  /* Undo side effects of old MSIE-hack in html, body block */
+  text-align: left;
+
+  /* Standards-compliant centering */
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 100%;
+
+  background: #fff;
+
+  table-layout: fixed;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#top {
+  height: 168px;
+}
+
+#top-home {
+  height: 503px;
+}
+
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#bottom {
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#header-content {
+  width: 900px;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.right-content {
+  width: 609px;
+  padding: 12px;
+  padding: 3em 8em;
+  vertical-align: top;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+
+#slides {
+  display: none;
+  position: relative;
+}
+
+#slides, #slides .slide {
+  height: 268px;
+  width: 898px;
+}
+
+.slides_container {
+  float: left;
+}
+
+#slides .prev, #slides .next {
+  display: block;
+  position: absolute;
+  top: 135px;
+  z-index: 99;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#slides .prev:hover, #slides .next:hover {
+  opacity: 1.0;
+}
+
+#slides .prev {
+  /* left: 39px; */
+  left: 15px;
+}
+
+#slides .next {
+  /* right: 37px; */
+  right: 13px;
+}
+
+#slides .slidesjs-pagination {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  left: 422px;
+  background: transparent;
+  list-style: none;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+}
+
+#slides .slidesjs-pagination li {
+  display: inline;
+}
+
+#slides .slidesjs-pagination a {
+  width: 10px;
+  height: 0;
+  padding-top: 10px;
+  background-image: url(/images/slideshow/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+  margin-right: 4px;
+}
+
+#slides .slidesjs-pagination .active {
+  background-position: 0 -11px;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.legal {
+  color: #b99e60;
+  font-size: 0.95em;
+
+  line-height: 1.35em;
+
+  margin-top: 1em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.row-odd {
+  background-color: #e7ecf5;
+}
+
+.row-odd .dark {
+  background-color: #c2d0e6;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.row-even {
+  background-color: #d2dced;
+}
+
+.row-even .dark {
+  background-color: #b9c8e2;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.row-footer, #annualized, #annualized-narrow {
+   text-align: center;
+   font-size: 0.71em !important;
+   font-variant: small-caps;
+
+   text-transform: uppercase;
+
+   padding: 0.1em !important;
+
+   padding-top: .175em !important;
+}
+
+.row-footer {
+  background-color: #6788c1;
+  color: #fff;
+  letter-spacing: 0.25em;
+}
+
+#year-end-distributions tr td.row-footer {
+  text-align: center;
+  letter-spacing: 0.15em;
+  font-variant: normal;
+  text-transform: none;
+}
+
+#annualized, #annualized-narrow {
+   background-color: #D2DCED;
+   color: #3460AC;
+}
+
+#annualized {
+   letter-spacing: 0.65em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+h1 {
+  color: #22438e;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  margin-top: 1em;
+  line-height: 1.25em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+h2 {
+  color: #a27e2c;
+  margin-top: 2em;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.no-clear, h2.no-clear {
+  clear:none;
+}
+
+
+th, h2 {
+
+  font-size: 1.1em;
+
+}
+
+
+
+/* So paragraphs are closer to headers */
+
+p {
+
+  margin-top: 0.25em;
+
+  margin-bottom: 1em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+table, td {
+  border-collapse: collapse;
+  border: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+td.narrow, th.narrow {
+  padding: 0 !important;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.right-content table {
+  margin-top: 2.25em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.right-content table td {
+  padding: 0.65em;
+}
+
+.right-content table#fund_chart td {
+  padding: 0;
+}
+
+.right-content table tr.short td {
+   padding: 0.1em;
+   padding-bottom: 0;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+th {
+  background: #3460ac;
+  color: #fff;
+  padding: 0.5em;
+}
+
+th a:link, th a:visited {
+    color: #eee;
+    font-size: 0.7em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+img {
+  display: block;
+  border: 0;
+  padding: 0;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+label, input {
+  display: block;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+label {
+  font-size: 0.9em;
+  font-variant: small-caps;
+  margin-top: 1em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+input {
+  margin-top: 0.15em;
+  font-size: 0.9em;
+  width: 12em;
+}
+
+input[disabled] {
+  background-color: #eee;
+  color: #999;
+}
+
+input[type='checkbox'] {
+  margin: 0;
+  width: auto;
+}
+
+th input {
+    color: #000;
+}
+
+input.short {
+  width: 5em;
+}
+
+input.long {
+  width: 25em;
+}
+
+input.button, input.button-float {
+  margin-top: 0.75em;
+}
+
+input.submit, input.submit-float {
+  margin-top: 2.25em;
+}
+
+input.submit {
+  width: auto;
+}
+
+input.submit-float, input.button-float {
+  float: left;
+  margin-right: 0.5em;
+  margin-bottom: 2em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#fund-price, #fund-information  {
+  /* width: 65%; */
+
+  /* Since inside .fund-summary-wrapper, fill contents. */
+  width: 95%;
+
+  /* Since inside .fund-summary-wrapper, let it handle margins. */
+  margin: 0 !important;
+}
+
+#fund-price {
+  /* margin-top: 1px !important; */
+}
+
+#fund-price td, #fund-information td {
+  width: 50%;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.promo.right {
+  float: right;
+  clear:right;
+  margin-right: -35px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#tax-planning td .distribution-link {
+  line-height: 1em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  display: block;
+}
+
+/*
+#tax-planning td .distribution-link {
+  line-height: 1.2em;
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: .7em;
+  display: block;
+}
+ */
+
+.promo + .promo {
+  margin-top: 7px;
+}
+
+#home-sidebar, #home-side-bottom {
+  float: right;
+  clear: both;
+  margin-right: -35px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#quarterly-statement img, .applications img, .promo.right img {
+  display: inline;
+}
+
+#quarterly-statement td, .promo.right td {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#quarterly-statement td, .applications td, .applications-no-thumbs td, .login td, .promo.right td {
+  background: #cfdced;
+}
+
+#quarterly-statement th, .promo.right th {
+  text-align: left;
+}
+
+#quarterly-statement, .promo.right {
+  text-align: center;
+}
+
+.applications .pdf td {
+  background: transparent;
+}
+
+.applications .pdf td img {
+  margin-right: 19px;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+/* If not inside wrapper, center it! */
+#quarterly-statement {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quarterly-statement, .promo.right {
+  width: 16em;
+}
+
+/* Since inside .fund-summary-wrapper, fill contents. */
+.fund-summary-wrapper-east #quarterly-statement {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* An exception to help tables line up on one page */
+.bond-quarterly-statement {
+  line-height: 1.4em;
+}
+
+.applications, .applications-no-thumbs, .login {
+  width: 95%;
+}
+
+.applications-thumb {
+  width: 35%;
+  text-align: right;
+}
+
+/* Adjust this to play with spacing */
+.right-content table .applications-thumb {
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+}
+
+/* Adjust this to play with spacing for everything but first */
+.right-content table tr + tr + tr .applications-thumb {
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+}
+
+.right-content table.applications-no-thumbs td {
+  padding-left: 12%;
+}
+
+
+.applications-desc {
+  width: auto;
+  vertical-align: middle;
+}
+
+.login img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login img {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.login .left {
+  text-align: right;
+}
+
+.login .left img {
+  margin-right: 1em;
+  margin-left: auto;
+}
+
+.login .right {
+  text-align: left;
+}
+
+.login .right img {
+  margin-left: 1em;
+  margin-right: auto;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.fund-summary-wrapper {
+  width: 100%;
+}
+
+.fund-summary-wrapper, .fund-summary-wrapper-east, .fund-summary-wrapper-west {
+  padding: 0 !important;
+  border-collapse: collapse;
+}
+
+.fund-summary-wrapper-west {
+  width: 67%;
+}
+
+.fund-summary-wrapper-east {
+  width: auto;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#investment-news {
+  width: 100%;
+  background-color: #d2dced;
+}
+
+#investment-news .icon {
+  padding: 1.5em;
+  padding-left: 2.5em;
+  padding-right: 0;
+  width: 154px;
+}
+
+#investment-news h2 {
+  color: #22438e;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#total-returns {
+  width: 100%;
+}
+
+#total-returns td {
+  white-space: nowrap;
+}
+
+#total-returns td.light, #total-returns td.dark {
+  text-align: center;
+}
+
+.total-returns-label {
+  width: 25.5em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+#fund-information td {
+  /* Squish vertically */
+  padding-top: 0.25em !important;
+  padding-bottom: 0.25em !important;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.centered {
+  color: red;
+  text-align: center !important;
+  color: red;
+}
+
+#year-end-distributions {
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+}
+
+#year-end-distributions td {
+  text-align: center;
+}
+
+#year-end-distributions td:first-child {
+  text-align: left;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.abbr {
+  font-size: 0.6em;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+.abbr-large {
+  font-size: 0.8em;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.logout {
+  font-size: 0.7em;
+  font-variant: small-caps;
+  letter-spacing: 0;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.tiny-two-lines {
+  font-size: 0.75em;
+  line-height: 1.1em;
+  text-align: center !important;
+  padding: 0.2em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.up {
+  color: #009245
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.down {
+  color: #900;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.alert {
+  display: block;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin: .5em 0;
+
+  /* Bootrap 3 */
+  border-radius: 4px;
+  padding: 15px;
+  border: 1px solid transparent;
+}
+
+.alert.warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert.info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert.success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert.error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.borders, .borders td, .borders th {
+  border: 1px solid #000;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.disabled {
+  color: #444;
+  background: #e5e5e5;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background: #aaa;
+  color: #aaa;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clear: both;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+ul, ol {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+ul li, ol li {
+  padding: 0;
+  margin: 0;
+  margin-left: 1.2em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #22438e;
+}
+
+a:hover, th a:hover {
+  color: #a27d25;
+}
+
+/*.....................................................................................
+  . ADMIN
+  .....................................................................................*/
+
+.admin .nav ul, .admin .nav li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.admin .nav a strong {
+  color: #a27e2c;
+}
+
+.admin table {
+  width: 100%;
+}
+
+.admin .contacts th.select {
+  width: 1em;
+}
+
+.admin .contacts td {
+  max-width: 140px;
+}
+
+.admin .sorted {
+  font-weight: bold;
+}
+
+.admin form.order_by {
+}
+
+.admin .contacts-actions .button {
+  display: block;
+  float: right;
+  margin-left: .5em;
+}
+
+.admin #selected_contacts_actions {
+  margin-top: 0.5em;
+  text-align: right;
+}
+
+.admin #selected_contacts_actions .link, .admin #selected_contacts_actions .disabled {
+  margin-right: .75em;
+}
+
+.admin #selected_contacts_actions .disabled {
+  color: #aaa;
+  background-color: transparent;
+}
+
+.admin #selected_contacts_actions .link {
+  text-decoration: underline;
+}
+
+.admin #delete-selected {
+  display: inline;
+}
+
+.admin .delete input[type=submit] {
+  margin-top: 2em;
+}
+
+/*.....................................................................................
+  .
+  .....................................................................................*/
+.advisor h2 {
+  margin-top: 0;
+}
+
+.advisor img {
+  display: block;
+  margin-top: 2.1em;
+  margin-right: 0.75em;
+}
+
+.advisor .brief img {
+  display: block;
+  margin-top: 0.3em;
+}
+
+.right-content table.advisor {
+  margin-top: 1.25em;
+}
+
+#flash {
+  background: #fff;
+  border:0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  color: #900;
+  padding: 1em;
+  background: #e8ecf5;
+  font-size: 1.2em;
+}
+
+#lipper {
+  color: #86888a;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  padding-bottom: 0.75em;
+}
+
+#lipper p {
+  font-size: 0.7em;
+  line-height: 1.1em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+
+#lipper .remainder p {
+  text-align: justify;
+}
+
+#lipper td img {
+  display: inline;
+  margin-bottom: 0.75em;
+}
+
+#lipper td {
+  width: 165px;
+  padding: 10px;
+  text-align: center;
+}
+
+#lipper .remainder {
+  width: auto;
+}
+
+#lipper .fund {
+  font-weight: bold;
+}
+
+#lipper .fund, #lipper .desc {
+  color: #22438e;
+}
+
+#lipper .award {
+  color: #f99d1c;
+}
+
+#lipper td + td {
+  border-left: 1px solid #eee;
+}
+
+#lipper td + td.remainder {
+  border-left: 0;
+}
+
+#fund_chart {
+  /* Was: 2.5em */
+  margin-top: 0;
+}
+
+.change-password {
+  background: #e8ecf5;
+  width: 100%;
+  padding: 1em;
+}
+
+.change-password table {
+  margin: 0;
+  width: 70%;
+}
+
+.change-password label {
+  font-variant: normal;
+  font-weight: bold;
+}
+
+.change-password input {
+  width: 90%;
+}
+
+.change-password td {
+  vertical-align: bottom;
+}
+
+.change-password td:last-child {
+  width: 65%;
+}
+
+.change-password .submit {
+  margin-top: 2em;
+}
+
+.advisor {
+  float: left;
+  min-width: 49%;
+  margin-bottom: 1em;
+}
+
+.advisor > p:first-child {
+  margin-top: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/**
+ * Source: http://webaim.org/techniques/css/invisiblecontent/
+ */
+.hide {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+/* Inline form elements */
+.inline label, .inline input {
+  display: inline;
+}
+
+.close-to-next {
+  margin-top: 1em;
+  margin-bottom: .4em;
+}
+
+.close-to-next + *, .close-to-next + table, .close-to-next + form {
+  margin-top: 0;
+}
+
+.close-to-next + form > *:first-child {
+  margin-top: 0;
+}
+
+.button {
+  background-color: #d2dced;
+  padding: .15em .5em;
+  border-radius: .4em;
+}
+
+/*.....................................................................................
+  . Fund price method
+  .....................................................................................*/
+#form_fund_price_method {
+  background-color: #e7ecf5;
+  padding: 1em;
+  border-radius: .5em;
+}
+
+#form_fund_price_method label:first-child {
+  margin-top: 0;
+}
+
+#form_fund_price_method select[name=fund_price_method] {
+  display: block;
+  margin-top: .5em;
+  height: 3em;
+  width: 20em;
+}
+
+#form_fund_price_method input[name=save_fund_price_method] {
+  margin-top: 1em;
+}
+
+/*.....................................................................................
+  . ADMIN (legacy)
+  .....................................................................................*/
+
+/* Center annualized checkboxes in Total Returns table */
+#total_returns_annualized td input[type=checkbox] {
+  margin: 0 auto;
+}
