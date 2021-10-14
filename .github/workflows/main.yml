@@ -11,7 +11,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.theemailauthority.com
+          server: ftp.avemariafunds.com
           username: githugftp@avemariafunds.com
           password: MDI5ODEwNjc5NTgyMDk
           server-dir: /
