@@ -13,7 +13,7 @@ jobs:
         with:
           server: ftp.avemariafunds.com
           username: githubftp@avemariafunds.com
-          password: MDI5ODEwNjc5NTgyMDk
+          password: ${{ secrets.password }}
           server-dir: /
           log-level: verbose
           state-name: .clean-slate.json
