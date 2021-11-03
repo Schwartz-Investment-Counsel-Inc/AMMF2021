@@ -3,6 +3,7 @@
   require_once 'mysql.obj.inc.php';
   require_once 'library.php';
   require_once 'authentication.inc.php';
+  require_once 'fix_mysql.inc.php';
 
   $mysql = new mysql();
   $mysql->connectDB ();
