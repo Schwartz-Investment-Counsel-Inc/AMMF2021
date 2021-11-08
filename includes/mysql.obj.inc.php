@@ -1,7 +1,7 @@
 <?php
 
   require_once 'config.inc.php'; // TODO: better way to inject config values than globals?
-
+  require_once 'fix_mysql.inc.php';
 /***********************************************
 *
 * MODULE DESCRIPTION
