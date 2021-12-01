@@ -86,207 +86,146 @@ $(function() {
         comp_comp15.parent_selector = null;
         f.addComponentType(comp_comp15);
         
-        var comp_comp16 = new PgComponentType('comp16', '!!OLD!! In the news table');
-        comp_comp16.code = '<section class="am-clear-banner container-fluid clean-block about-us" style="padding-top: 80px;">    <div class="container">        <div class="row justify-content-center">            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-GPS-EWTN.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-Chadd-CheddarTV.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/KrestaInTheAfternoon-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-CMG-TDA.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-MorningAir-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">                    <div style="padding: 8px;margin-bottom:8px;">                        <img class="card-img-top w-100 d-block" src="../img/news/KrestaInTheAfternoon-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">                    </div>                    <div class="card-body info" style=" height: 124px; position: relative;">                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>                    </div>                </div>            </div>        </div>    </div></section>';
+        var comp_comp16 = new PgComponentType('comp16', 'In the news table');
+        comp_comp16.code = '<section class="am-clear-banner container-fluid clean-block about-us" style="padding-top: 80px;">\
+    <div class="container">\
+        <div class="row justify-content-center">\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-GPS-EWTN.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-Chadd-CheddarTV.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/KrestaInTheAfternoon-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/2021-08-CMG-TDA.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-MorningAir-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/RelevantRadio-DaveDurand-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+                <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+                    <div style="padding: 8px;margin-bottom:8px;">\
+                        <img class="card-img-top w-100 d-block" src="../img/news/KrestaInTheAfternoon-ChaddGarcia.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+                    </div>\
+                    <div class="card-body info" style=" height: 124px; position: relative;">\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+                        <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+                    </div>\
+                </div>\
+            </div>\
+        </div>\
+    </div>\
+</section>';
         comp_comp16.parent_selector = null;
         f.addComponentType(comp_comp16);
         
-        var comp_comp17 = new PgComponentType('comp17', '!!OLD!! In The News Card');
-        comp_comp17.code = '<div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">    <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">        <div style="padding: 8px;margin-bottom:8px;">            <img class="card-img-top w-100 d-block" src="../img/news/2021-08-GPS-EWTN.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">        </div>        <div class="card-body info" style=" height: 124px; position: relative;">            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>            <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>        </div>    </div></div>';
+        var comp_comp17 = new PgComponentType('comp17', 'In The News Card');
+        comp_comp17.code = '<div class="col-sm-6 col-lg-4" style="padding-right: 10px;padding-left: 10px;margin-bottom: 22px;">\
+    <div class="card text-center clean-card" style="background: #CCCCCC;border-radius: 15px; height: 362px;">\
+        <div style="padding: 8px;margin-bottom:8px;">\
+            <img class="card-img-top w-100 d-block" src="../img/news/2021-08-GPS-EWTN.png" height="210px" style="border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; ">\
+        </div>\
+        <div class="card-body info" style=" height: 124px; position: relative;">\
+            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px;">George Schwartz on </h4>\
+            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap" style=" font-family:Lato, sans serif; color: #31458E;font-size: 22px;line-height:26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px;">EWTN/The World Over with Raymond Arroyo</h4>\
+            <p class="float-left justify-content-start align-items-start align-content-start card-text" style="color: rgb(239,239,239);font-size: 21px;margin: 0px; position: absolute; left: 24px; bottom: 12px;">August 5, 2021</p>\
+        </div>\
+    </div>\
+</div>';
         comp_comp17.parent_selector = null;
         f.addComponentType(comp_comp17);
-        
-        var comp_comp18 = new PgComponentType('comp18', 'News-Grid');
-        comp_comp18.code = '<section class="am-clear-banner container-fluid clean-block about-us" style="padding-top: 80px;"> \
-    <style>@media screen and (max-width: 1199px) { .localResize {  padding-left: 20%; } } @media screen and (max-width: 991px) { .localResize {  padding-left: 40%; } } .cardColumn { padding-right: 10px; padding-left: 10px; margin-bottom: 22px; width: 390px; } .cardDiv { background: #CCCCCC; border-radius: 15px; height: 362px; } .cardHeader { padding: 8px; margin-bottom: 6px; } .cardImgContainer { background-color: white; margin-left: 2px; margin-right: 2px; border-radius: 8px; box-shadow: 4px 4px 14px #4e4e4e; } .cardImg { border-radius: 8px; padding: 2px; } .cardBody { height: 124px; position: relative; } .cardBodyFirstHeader { font-family: Lato, sans serif; color: #31458E; font-size: 22px; line-height: 26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 0px; } .cardBodySecondHeader { font-family: Lato, sans serif; color: #31458E; font-size: 22px; line-height: 26px; padding-right: 24px; padding-left: 24px; font-weight: 600; margin-bottom: 6px; } .cardBodyDate { color: rgb(239,239,239); font-size: 21px; margin: 0px; position: absolute; left: 24px; bottom: 12px; } .cardBodyTranscript { color: rgb(239,239,239); font-size: 12px; margin: 0px !important; position: absolute; right: 24px; bottom: 8px; }</style>     \
-    <div class="container localResize"> \
-        <div class="row justify-content-center"> \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">George Schwartz on </h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">EWTN/The World Over with Raymond Arroyo</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">August 13, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">Cheddar TV</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">August 12, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">The Dave Durand Show</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">August 7, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">The Al Kresta Show</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">July 26, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">TD Ameritrade Network</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">July 2, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">Morning Air</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">July&nbsp; 22, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">The Dave Durand Show</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">June 5, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">The Dave Durand Show</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">May 1, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-            <div class="col-sm-6 col-lg-4 cardColumn"> \
-                <div class="card text-center clean-card cardDiv"> \
-                    <div class="cardHeader"> \
-                        <div height="210px" width="344px" class="cardImgContainer"> \
-                            <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-                        </div>                         \
-                    </div>                     \
-                    <div class="card-body info cardBody"> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">Chadd Garcia on</h4> \
-                        <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">The Al Kresta Show</h4> \
-                        <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">April 20, 2021</p> \
-                        <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-                    </div>                     \
-                </div>                 \
-            </div>             \
-        </div>         \
-    </div>     \
-    <script>\
-                        window.addEventListener(\'resize\', windowResizeRefreshCSS);\
-                        console.log(document.currentScript.parentElement);\
-                        function windowResizeRefreshCSS(){\
-                            if(window.innerWidth > 1199){\
-                                document.querySelector(".localResize").style.paddingLeft = "";\
-                            }\
-                            else if(window.innerWidth >= 992 && window.innerWidth <= 1199){\
-                                var leftPadding = ((window.innerWidth - 820) /2) + \'px\';\
-                                document.querySelector(".localResize").style.paddingLeft = leftPadding;\
-                            }\
-                            else if (window.innerWidth < 992) {\
-                                var leftPadding = ((window.innerWidth - 410) /2) + \'px\';\
-                                document.querySelector(".localResize").style.paddingLeft = leftPadding;\
-                            }\
-                        }\
-                        if (window.innerWidth <= 1199){\
-                            windowResizeRefreshCSS();\
-                        }\
-                    </script>     \
-</section>';
-        comp_comp18.parent_selector = null;
-        f.addComponentType(comp_comp18);
-        
-        var comp_comp19 = new PgComponentType('comp19', 'News-Grid-Card');
-        comp_comp19.code = '<div class="col-sm-6 col-lg-4 cardColumn"> \
-    <div class="card text-center clean-card cardDiv"> \
-        <div class="cardHeader"> \
-            <div height="210px" width="344px" class="cardImgContainer"> \
-                <img class="card-img-top w-100 d-block cardImg" src="../img/news/DURAND-logo-only-sq.jpg"> \
-            </div>             \
-        </div>         \
-        <div class="card-body info cardBody"> \
-            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodyFirstHeader">George Schwartz on </h4> \
-            <h4 class="text-left float-left justify-content-start align-items-start align-content-start align-self-start flex-wrap cardBodySecondHeader">EWTN/The World Over with Raymond Arroyo</h4> \
-            <p class="float-left justify-content-start align-items-start align-content-start card-text cardBodyDate">August 13, 2021</p> \
-            <a href="#"><p class="float-right justify-content-end align-items-end align-content-end card-text cardBodyTranscript">TRANSCRIPT</p></a> \
-        </div>         \
-    </div>     \
-</div>';
-        comp_comp19.parent_selector = null;
-        f.addComponentType(comp_comp19);
         
         //Tell Pinegrow about the framework
         pinegrow.addFramework(f);
             
         var section = new PgFrameworkLibSection("UserLib_lib", "Components");
         //Pass components in array
-        section.setComponentTypes([comp_comp1, comp_comp2, comp_comp3, comp_comp4, comp_comp5, comp_comp6, comp_comp7, comp_comp8, comp_comp9, comp_comp10, comp_comp11, comp_comp12, comp_comp13, comp_comp14, comp_comp15, comp_comp16, comp_comp17, comp_comp18, comp_comp19]);
+        section.setComponentTypes([comp_comp1, comp_comp2, comp_comp3, comp_comp4, comp_comp5, comp_comp6, comp_comp7, comp_comp8, comp_comp9, comp_comp10, comp_comp11, comp_comp12, comp_comp13, comp_comp14, comp_comp15, comp_comp16, comp_comp17]);
 
         f.addLibSection(section);
    });
