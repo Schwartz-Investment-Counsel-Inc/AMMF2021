@@ -419,7 +419,6 @@ button:focus {
     max-width: 300px;
     min-width: 136px;
     padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
 }
 
 .am-master-padding {
@@ -434,7 +433,7 @@ button:focus {
 }
 
 .am-hg-body {
-    line-height: 8vw;
+    line-height: 6vw;
     color: #2d3e8d;
     padding-left: 5vw;
     padding-right: 5vw;
