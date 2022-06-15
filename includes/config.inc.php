@@ -2,7 +2,7 @@
 
   define('AUTH_USER','admin');
   define('AUTH_PASS','8m_STKCJ_hDXtGEp');
-  define('MYSQL_HOST', 'p3plcpnl0831.prod.phx3.secureserver.net');
+  define('MYSQL_HOST', 'localhost');
   define('MYSQL_DATABASE', 'avemaria1');
   define('MYSQL_USER', 'avemaria1');
   define('MYSQL_PASSWORD', 'Rw!s3kjh#5ET81Dy');
