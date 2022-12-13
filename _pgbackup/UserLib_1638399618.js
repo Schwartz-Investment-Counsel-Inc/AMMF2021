@@ -72,7 +72,7 @@ $(function() {
         f.addComponentType(comp_comp12);
         
         var comp_comp13 = new PgComponentType('comp13', 'Brochure Green Bar');
-        comp_comp13.code = '<div class="am-download-brochure">    <a href="../pdfs/brochure/AMMF CAB Brochure 2022 10.pdf" target="_blank" class=""> <img src="../img/icons/icon-download-brochure.png" alt="Download Brochure" style="width: 73vw; max-width: 500px;"> </a></div>';
+        comp_comp13.code = '<div class="am-download-brochure">    <a href="../pdfs/brochure/AMMF CAB Brochure 2022 12.pdf" target="_blank" class=""> <img src="../img/icons/icon-download-brochure.png" alt="Download Brochure" style="width: 73vw; max-width: 500px;"> </a></div>';
         comp_comp13.parent_selector = null;
         f.addComponentType(comp_comp13);
         
