@@ -1,16 +1,16 @@
 on: push
-name: Deploy website on push
+name: Publish Website
 jobs:
-  web-deploy:
-    name: Deploy
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-      - name: Get latest code
-        uses: actions/checkout@v2
-
-      - name:FTP-Deploy-Action
-        uses:SamKirkland/FTP-Deploy-Action@3.1.2
-        with:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.2
+      with:
           server: ftp.avemariafunds.com
           username: githubftp@avemariafunds.com
           password: ${{ secrets.password }}
