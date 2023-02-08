@@ -1,5 +1,5 @@
 on: push
-name: Publish Website
+name: Publish Website Dry Run
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
@@ -8,12 +8,11 @@ jobs:
     - uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
+
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
-          ftp-server: ftp.avemariafunds.com
+          ftp-server: ftps://ftp.samkirkland.com:21/
           ftp-username: githubftp@avemariafunds.com
           ftp-password: ${{ secrets.password }}
-          server-dir: /
-          log-level: verbose
-          state-name: .clean-slate.json
+          git-ftp-args: --dry-run
