@@ -12,7 +12,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
-          ftp-server: ftps://ftp.samkirkland.com:21/
+          ftp-server: ftp://ftp.avemariafunds.com:21/
           ftp-username: githubftp@avemariafunds.com
           ftp-password: ${{ secrets.password }}
           git-ftp-args: --dry-run
