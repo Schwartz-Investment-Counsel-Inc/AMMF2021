@@ -11,9 +11,9 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
-          server: ftp.avemariafunds.com
-          username: githubftp@avemariafunds.com
-          password: ${{ secrets.password }}
+          ftp-server: ftp.avemariafunds.com
+          ftp-username: githubftp@avemariafunds.com
+          ftp-password: ${{ secrets.password }}
           server-dir: /
           log-level: verbose
           state-name: .clean-slate.json
