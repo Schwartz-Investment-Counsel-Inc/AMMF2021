@@ -1,18 +1,19 @@
 on: push
-name: Publish Website Dry Run
+name: 🚀 Deploy website on push
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
 
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.2
-      with:
-          ftp-server: ftp://ftp.avemariafunds.com:21/
-          ftp-username: githubftp@avemariafunds.com
-          ftp-password: ${{ secrets.password }}
-          git-ftp-args: --dry-run
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.avemariafunds.com
+          username: githubftp@avemariafunds.com
+          password: ${{ secrets.password }}
+          server-dir: /
+          log-level: verbose
+          state-name: .clean-slate.json
