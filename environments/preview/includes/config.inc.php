@@ -18,7 +18,7 @@
   //  Email
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   define('FINANCIAL_ADVISOR_EMAIL_ADDRESSES', 'bryanesmith+avemaria@gmail.com, g.malcolm@studio228.com');
-  define('CONTACT_SUBMITTED_EMAIL_ADDRESSES', 'bryanesmith+avemaria@gmail.com, g.malcolm@studio228.com');
+  define('CONTACT_SUBMITTED_EMAIL_ADDRESSES', 'bryanesmith+avemaria@gmail.com, g.malcolm@studio228.com, corourke@schwartzinvest.com');
   define('TECH_SUPPORT_EMAIL_ADDRESSES', 'bryanesmith+avemaria@gmail.com, g.malcolm@studio228.com');
   define('EMAIL_SUBJECT_PREFIX', 'Preview');
 
