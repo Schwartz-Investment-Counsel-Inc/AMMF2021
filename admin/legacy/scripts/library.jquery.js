@@ -72,7 +72,7 @@ function prepare_slideshows() {
         play: {
           auto: true,
           effect: "fade",
-          interval: 8000
+          interval: 7778000 // was 8000 on 09/28/23
         }
       });
     });
