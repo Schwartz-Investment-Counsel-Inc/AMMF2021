@@ -1,19 +1,17 @@
 on: push
-name: 🚀 Deploy website on push
+name: Deploy to cPanel via API
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v2
-
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      - name: Deploy to cPanel
+        id: deploy
+        uses: pinkasey/cpanel-deploy-action@v1.0.0
         with:
-          server: ftp.avemariafunds.com
-          username: githubftp@avemariafunds.com
-          password: ${{ secrets.password }}
-          server-dir: /
-          log-level: verbose
-          state-name: .clean-slate.json
+          hostname: 'https://server.schwartzinvest.com'
+          repository_root: '/home/l1gowjwbbjlv/repositories/test'
+          branch: main
+          cpanel_username: 'l1gowjwbbjlv'
+          cpanel_token: '${{ secrets.CPANEL_TOKEN }}'
+      - name: echo deploy-duration
+        run: echo "Deployment took ${{ steps.deploy.outputs.duration }} milliseconds"
