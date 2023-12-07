@@ -1,0 +1,3 @@
+              - name: cPanel Deploy Action
+                uses: pinkasey/cpanel-deploy-action@v1.1.2
+            
