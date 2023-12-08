@@ -1,3 +1,8 @@
               - name: cPanel Deploy Action
                 uses: pinkasey/cpanel-deploy-action@v1.1.2
-            
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/l1gowjwbbjlv/public_html/environments/preview
+ - export REPOPATH=/home/l1gowjwbbjlv/repositories/AMMF2021
+ - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
+ - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
