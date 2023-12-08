@@ -6,3 +6,6 @@ deployment:
  - export REPOPATH=/home/l1gowjwbbjlv/repositories/AMMF2021
  - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
  - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
+ - /bin/chmod 755 ${DEPLOYPATH}
+ - /bin/find ${DEPLOYPATH} -type d -exec /bin/chmod 755 '{}' \;
+ - /bin/find ${DEPLOYPATH} -type f -exec /bin/chmod 644 '{}' \;
