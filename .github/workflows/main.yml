@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Deploy to cPanel
         id: deploy
-        uses: pinkasey/cpanel-deploy-action@v1.0.0
+        uses: pinkasey/cpanel-deploy-action@v1.1.2
         with:
           hostname: 'https://server.schwartzinvest.com'
           repository_root: '/home/l1gowjwbbjlv/public_html/environments/preview'
