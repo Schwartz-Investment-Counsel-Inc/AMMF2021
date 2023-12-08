@@ -9,7 +9,7 @@ jobs:
         uses: pinkasey/cpanel-deploy-action@v1.1.2
         with:
           hostname: 'https://server.schwartzinvest.com'
-          repository_root: '/home/l1gowjwbbjlv/public_html/environments/preview'
+          repository_root: '/home/l1gowjwbbjlv/repositories/AMMF2021'
           branch: main
           cpanel_username: 'l1gowjwbbjlv'
           cpanel_token: '${{ secrets.CPANEL_TOKEN }}'
