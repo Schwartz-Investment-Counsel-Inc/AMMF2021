@@ -1,5 +1,5 @@
 - name: cPanel Deploy Action
-uses: pinkasey/cpanel-deploy-action@v1.1.2
+uses: pinkasey/cpanel-deploy-action@v1.2.0
 deployment:
   tasks:
     # NOTE: public_html on cPanel must not be removed or renamed.
